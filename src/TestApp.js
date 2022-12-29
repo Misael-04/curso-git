@@ -90,6 +90,7 @@
             return html`
        
                 <div>
+                  <h1>Busca a tu pokemon</h1>
                   <input type="text"  @input = ${this.changeName} />
                   <button type="submit" @click=${this.findPokemon} >Pokemon</button>
                 </div>
